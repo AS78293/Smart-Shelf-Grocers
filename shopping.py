@@ -12,7 +12,7 @@ from Login_Button import logged_in_username
 mydb = mysql.connector.connect(
     host="localhost",       # Your MySQL host (usually localhost)
     user="root",            # Your MySQL username
-    password="root"         # Your MySQL password
+    password="root"         
 )
 
 mycursor = mydb.cursor()
